@@ -1251,9 +1251,17 @@ figcaption p {
     overflow: visible !important
 }
 
-.rainy-dropping.section-rain-drops>canvas[height="70"] {
+@media screen and (min-width: 1081px){
+    .rainy-dropping.section-rain-drops>canvas[height="70"] {
     width: 105%;
     height: 50px !important;
+}
+}
+
+@media screen and (min-width: 1080px){
+    .rainy-dropping.section-rain-drops>canvas[height="70"] {
+    width: 100%;
+}
 }
 
 footer {
